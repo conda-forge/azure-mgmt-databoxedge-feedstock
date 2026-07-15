@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-databoxedge
-  version: 2.0.0
+  version: "3.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_databoxedge-${{ version }}.tar.gz
-  sha256: f18f066d027c99a224998d3c4740812682159abe38cf58e87b09770cab2cacc0
+  sha256: 772266ee2dce6cdde7d28b9e7a153b3fd57d27f12b47375742e23b3f9fda24eb
 
 build:
   number: 0
